@@ -179,6 +179,7 @@ ul {
 
 section.now-playing {
   padding: 60px;
+  padding-top: 20px;
   background: url(../images/showcase-bg.jpg) no-repeat center center/cover;
 }
 
@@ -351,5 +352,10 @@ section h2 {
   .details-top img {
     width: 100%;
     margin: 0;
+  }
+
+  section.now-playing {
+    padding: 30px;
+    padding-top: 15px;
   }
 }
