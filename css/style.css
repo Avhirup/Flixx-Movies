@@ -238,8 +238,7 @@ section h2 {
   margin-top: 20px;
 }
 
-.details-bottom {
-}
+.details-bottom {}
 
 .details-bottom li {
   margin: 15px 0;
@@ -340,4 +339,17 @@ section h2 {
 
 .alert-error {
   background: red;
+}
+
+
+@media only screen and (max-width: 720px) {
+  .details-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .details-top img {
+    width: 100%;
+    margin: 0;
+  }
 }
